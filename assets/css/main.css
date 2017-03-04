@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #29735d;
+		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -3324,7 +3324,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #41332e;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3332,7 +3332,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #41332e;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
@@ -3340,7 +3340,7 @@
 			}
 
 		.wrapper.style4 {
-			background-color: #454858;
+			background-color: #41332e;
 		}
 
 			.wrapper.style4:before, .wrapper.style4:after {
@@ -3348,7 +3348,7 @@
 			}
 
 		.wrapper.style5 {
-			background-color: #4d5060;
+			background-color: #41332e;
 		}
 
 			.wrapper.style5:before, .wrapper.style5:after {
@@ -3356,7 +3356,7 @@
 			}
 
 		.wrapper.style6 {
-			background-color: #555867;
+			background-color: #41332e;
 		}
 
 			.wrapper.style6:before, .wrapper.style6:after {
