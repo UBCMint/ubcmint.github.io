@@ -22,7 +22,7 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="index.html">Solid State</a></h1>
-						
+
 					</header>
 
 				<!-- Banner -->
@@ -69,10 +69,29 @@
 									</div>
 								</div>
 							</section>
+
+						<!-- Blog -->
+						    <section id="four" class="wrapper spotlight style4">
+								<div class="inner">
+									<div class="content">
+										<h2 class="major">Blog</h2>
+										<p>
+										<ul class="posts">
+	  									{% for post in site.posts %}
+	    								<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  									{% endfor %}
+									    </ul>
+										</p>
+
+									</div>
+								</div>
+							</section>
               
-              <div class="container">
+                   <div class="container">
 			
 			          {{ content }}
+
+
 			
 			        </div><!-- /.container -->
 
