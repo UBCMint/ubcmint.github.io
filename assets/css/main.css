@@ -3115,10 +3115,10 @@
 
 		@media screen and (max-width: 1280px) {
 
-			#banner {
+			#banner {	//THIS IS THE FIRST CONTAINER 
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/att.jpg"); //bg.jpg
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../../images/att.jpg"); //bg.jpg
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
