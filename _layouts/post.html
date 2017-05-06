@@ -5,20 +5,14 @@ layout: page
 <html>
 <head>
 <link rel="stylesheet" href="/assets/css/blogposts.css" />
-
 </head>
-<body>
-<h2 class="spacing">{{ page.title }}</h2>
-=======
-{% include blog-head.html %}
 
-<link rel="stylesheet" href="/css/blogposts.css">
+<body>
 
 <h2 class="spacing">{{ page.title }}</h2>
 <p>{{ page.date | date: '%B %d, %Y' }}</p>
 
 {{ content }}
-
 
 </body>
 </html>
