@@ -9,6 +9,12 @@ layout: page
 </head>
 <body>
 <h2 class="spacing">{{ page.title }}</h2>
+=======
+{% include blog-head.html %}
+
+<link rel="stylesheet" href="/css/blogposts.css">
+
+<h2 class="spacing">{{ page.title }}</h2>
 <p>{{ page.date | date: '%B %d, %Y' }}</p>
 
 {{ content }}
