@@ -1,0 +1,15 @@
+.headshot {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.dr-lyndia-wu { background-position-y: -20px; background-image: url('./img/about/Dr.\ Lyndia\ Wu.jpg'); }
+
+.dr-gabriel-potvin { background-position-y: -10px; background-image: url('./img/about/Dr.\ Gabriel\ Potvin.jpg'); }
+
+.dr-saeid-soltanian { background-image: url('./img/about/Dr.\ Saeid\ Soltanian.jpg'); }
+
+.kalen-forester { background-image: url('./img/about/'); }

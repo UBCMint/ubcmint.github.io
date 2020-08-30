@@ -76,3 +76,10 @@
 .m-left {
   margin-left: 20px;
 }
+.h-80 {
+  height: 80px;
+}
+.wh-max {
+  width: 100%;
+  height: 100%;
+}
