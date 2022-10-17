@@ -121,6 +121,10 @@
     <div class="content-section-heading">
       <h2 class="mb-5">Members</h2>
     </div>
+
+    <div class="content-section-heading">
+      <h3 class="mb-5">Team Co-Leads</h3>
+    </div>
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
         <div class="mx-auto mb-3 headshot han-nguyen"></div>
@@ -141,6 +145,11 @@
         <div class="mx-auto mb-3 headshot tony-xu"></div>
         <h4><strong>Tony Xu</strong></h4>
       </div>
+    </div>
+
+    <div class="content-section-heading">
+      <h3 class="mb-5">Software Subteam</h3>
+      <p></p>
     </div>
     <div class="row">
       <div class="col-lg-3 col-md-6">
@@ -178,6 +187,11 @@
         <h4><strong>Bruno Ozaki</strong></h4>
       </div>
     </div>
+
+    <div class="content-section-heading">
+      <h3 class="mb-5">Signal-processing Subteam</h3>
+      <p></p>
+    </div>
     <div class="row">
       <div class="col-lg-3 col-md-6">
         <div class="mx-auto mb-3 headshot ryan-sutherland"></div>
@@ -196,6 +210,11 @@
         <h4><strong>Gagan Bhatia</strong></h4>
       </div>
     </div>
+
+    <div class="content-section-heading">
+      <h3 class="mb-5">Deep-learning Subteam</h3>
+      <p></p>
+    </div>
     <div class="row">
       <div class="col-lg-3 col-md-6">
         <div class="mx-auto mb-3 headshot nadia-djafri"></div>
@@ -206,6 +225,16 @@
         <h4 class="mb-1"><strong">Sumin Olivia Kim</strong></h4>
       </div>
     </div>
+  </div>
+
+  <div class="content-section-heading">
+    <h3 class="mb-5">Electrical Subteam</h3>
+    <p></p>
+  </div>
+
+  <div class="content-section-heading">
+    <h3 class="mb-5">Mechanical Subteam</h3>
+    <p></p>
   </div>
 </section>
 
@@ -239,10 +268,34 @@
     </div>
   </footer>
 
+  <!-- -->
+
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
+
+  <!-- Headshots rendering Javascript -->
+  <script>
+      const path = "./img/about";
+      const subteams = ['software', 'deep-learning', 'signal-processing', 'electrical', 'mechanical'];
+
+      subteams.forEach(subteam => {
+          $.ajax({
+              url : `${path}/${subteams}`,
+              success: function (data) {
+                  $(data).find("a").attr("href", function (i, val) {
+                      if (i % 4 === 0) {
+                          $(subteam).append( "<div class='row'>" );
+                      }
+                      if( val.match(/\.(jpe?g|png)$/) ) { 
+                          $(`.${subteam}`).append( "<img src='"+ folder + val +"'>" );
+                      } 
+                  });
+              }
+          });
+      });
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
