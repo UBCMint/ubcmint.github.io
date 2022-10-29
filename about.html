@@ -27,6 +27,12 @@
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+  <!-- JQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Headshots rendering Javascript -->
+  <script type="module" src="js/render-headshots.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -57,8 +63,7 @@
         <h2 class="mb-5">How MINT Started</h2>
       </div>
       <div class="mr-5 ml-5">
-        <!-- NEW TEAM IMAGE -->
-        <img src="./img/about/MINT201705.JPG" class="d-inline-block align-top wh-max mb-5" alt="MINT 201705">
+        <img src="./img/about/IMG_1974.JPG" class="d-inline-block align-top wh-max mb-5" alt="MINT 201705">
         <p class="lead mb-5">
           During a co-op employment, a BEST team member noticed that most efforts from staff revolved around obtaining clear diagnoses for study participants, 
           which is laborious due to the subjective nature of psychiatric symptoms. Clinicians noted that objective measurements of psychological states could not only improve recruitment methods, 
@@ -70,7 +75,6 @@
     </div>
   </section>
 
-<!-- EDIT INFO BELOW TO REFLECT NEW MENTORS/SUPERVISORS -->
  <!-- Supervisors and Mentors -->
  <section class="content-section bg-primary text-white text-center">
     <div class="container">
@@ -114,128 +118,40 @@
   </section>
 
   <!-- MINT members -->
-  <!-- Edit from here onwards. Update the team -->
-  <!-- Split up the team into the different subteams and explain what the subteams do-->
  <section class="content-section text-center" style="background: #F0F0F0">
   <div class="container">
     <div class="content-section-heading">
       <h2 class="mb-5">Members</h2>
     </div>
 
-    <div class="content-section-heading">
-      <h3 class="mb-5">Team Co-Leads</h3>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <div class="mx-auto mb-3 headshot han-nguyen"></div>
-        <h4><strong>Han Nguyen</strong></h4>
-        <p class="lead">Team Co-lead</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot kalen-forester"></div>
-        <h4 class="mb-1"><strong">Kalen Forester</strong></h4>
-        <p class="lead">Team Co-lead</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot alex-shevchuk"></div>
-        <h4 class="mb-1"><strong">Alex Shevchuk</strong></h4>
-        <p class="lead">Team Co-lead</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot tony-xu"></div>
-        <h4><strong>Tony Xu</strong></h4>
-      </div>
+    <div class="co-captains content-section-heading">
+      <h4 class="mb-5"><strong>Team Co-Captains</strong></h4>
     </div>
 
-    <div class="content-section-heading">
-      <h3 class="mb-5">Software Subteam</h3>
+    <div class="software content-section-heading">
+      <h4 class="mb-5"><strong>Software Subteam</strong></h4>
       <p></p>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="mx-auto mb-3 headshot joshua-park"></div>
-        <h4><strong>Joshua Park</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot alex-wen"></div>
-        <h4 class="mb-1"><strong">Alex Wen</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <div class="mx-auto mb-3 headshot riley-zurrin"></div>
-        <h4><strong>Riley Zurrin</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot hamza-peracha"></div>
-        <h4><strong>Hamza Peracha</strong></h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="mx-auto mb-3 headshot natalia-gosnell"></div>
-        <h4><strong>Natalia Gosnell</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot atoosa-mahmoudian"></div>
-        <h4 class="mb-1"><strong">Atoosa Mahmoudian</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <div class="mx-auto mb-3 headshot chaehyeon-lee"></div>
-        <h4><strong>Chaehyeon Lee</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot bruno-ozaki"></div>
-        <h4><strong>Bruno Ozaki</strong></h4>
-      </div>
-    </div>
 
-    <div class="content-section-heading">
-      <h3 class="mb-5">Signal-processing Subteam</h3>
+    <div class="signal-processing content-section-heading">
+      <h4 class="mb-5"><strong>Signal-processing Subteam</strong></h4>
       <p></p>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="mx-auto mb-3 headshot ryan-sutherland"></div>
-        <h4><strong>Ryan Sutherland-Pace</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot stephanie-quon"></div>
-        <h4 class="mb-1"><strong">Stephanie Quon</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-        <div class="mx-auto mb-3 headshot josha-heimann"></div>
-        <h4><strong>Josha Heimann</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot gagan-bhatia"></div>
-        <h4><strong>Gagan Bhatia</strong></h4>
-      </div>
-    </div>
-
-    <div class="content-section-heading">
-      <h3 class="mb-5">Deep-learning Subteam</h3>
+    
+    <div class="deep-learning content-section-heading">
+      <h4 class="mb-5"><strong>Deep-learning Subteam</strong></h4>
       <p></p>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="mx-auto mb-3 headshot nadia-djafri"></div>
-        <h4><strong>Nadira Djafri</strong></h4>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        <div class="mx-auto mb-3 headshot olivia-kim"></div>
-        <h4 class="mb-1"><strong">Sumin Olivia Kim</strong></h4>
-      </div>
+    
+    <div class="electrical content-section-heading">
+      <h4 class="mb-5"><strong>Electrical Subteam</strong></h4>
+      <p></p>
     </div>
-  </div>
 
-  <div class="content-section-heading">
-    <h3 class="mb-5">Electrical Subteam</h3>
-    <p></p>
-  </div>
-
-  <div class="content-section-heading">
-    <h3 class="mb-5">Mechanical Subteam</h3>
-    <p></p>
-  </div>
+    <div class="mechanical content-section-heading">
+      <h4 class="mb-5"><strong>Mechanical Subteam</strong></h4>
+      <p></p>
+    </div>
 </section>
 
   <!-- Footer -->
@@ -268,34 +184,10 @@
     </div>
   </footer>
 
-  <!-- -->
-
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-
-  <!-- Headshots rendering Javascript -->
-  <script>
-      const path = "./img/about";
-      const subteams = ['software', 'deep-learning', 'signal-processing', 'electrical', 'mechanical'];
-
-      subteams.forEach(subteam => {
-          $.ajax({
-              url : `${path}/${subteams}`,
-              success: function (data) {
-                  $(data).find("a").attr("href", function (i, val) {
-                      if (i % 4 === 0) {
-                          $(subteam).append( "<div class='row'>" );
-                      }
-                      if( val.match(/\.(jpe?g|png)$/) ) { 
-                          $(`.${subteam}`).append( "<img src='"+ folder + val +"'>" );
-                      } 
-                  });
-              }
-          });
-      });
-  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
