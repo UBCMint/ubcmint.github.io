@@ -54,6 +54,11 @@ const memberHeadshots = {
         "Victor Li.jpg",
         "Wesley Lam.jpg",
         "William Zhang.jpg"
+    ],
+    "mentees": [
+        "Ella Buric.jpg",
+        "Keefee Rahman.jpg",
+        "Nina Gliosca.png"
     ]
 }
 
