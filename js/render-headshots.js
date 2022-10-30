@@ -12,7 +12,7 @@ $(document).ready(function()
             }
             if (`${subteam}` === 'mentees') {
                 $(`.${subteam} .row-${Math.floor(i/4)}`).append( 
-                    "<div class='col-md-3 col-md-4 mb-5'>" +
+                    "<div class='col-md-3 col-md-4'>" +
                         `<div class='mx-auto mb-3 headshot' style="background-image: url('${path}/${subteam}/${memberHeadshots[subteam][i]}')"></div>` +
                         `<h4><strong>${getName(memberHeadshots[subteam][i])}</strong></h4>` +
                     "</div>"
