@@ -1,6 +1,6 @@
 const memberHeadshots = {
     "co-captains": [
-        "Priyanshu Manhey.jpg",
+        "Priyanshu Mahey.jpg",
         "Sze Lok Ng.jpg"
     ],
     "software": [
