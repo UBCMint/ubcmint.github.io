@@ -3,7 +3,7 @@ import { memberHeadshots } from "./member-headshots.js";
 $(document).ready(function()
 {
     const path = '../img/about';
-    const subteams = ['co-captains', 'software', 'deep-learning', 'signal-processing', 'electrical', 'mechanical', 'mentees'];
+    const subteams = ['co-captains', 'software', 'deep-learning', 'signal-processing', 'electrical', 'mechanical', 'neuroscience', 'ux'];
 
     subteams.forEach(subteam => {
         for (let i = 0; i < memberHeadshots[subteam].length; i++) {
