@@ -2,20 +2,20 @@ const memberHeadshots = {
   "co-captains": ["Priyanshu Mahey.jpg", "Sze Lok Ng.jpg"],
   software: [
     "Albert Guo.png",
-    "Ali Abbas.png",
+    "Ali Abbas.jpeg",
     "Andrew Feng.jpg",
     "Daniel Yoo.png",
     "David Kim.jpg",
     "Durukan Bütün.png",
     "Hassan ElGhayaty.png",
-    "Jayden Piao.png",
+    "Jayden Piao.JPG",
     "Jenny Sun.png",
     "Karry Jiang.png",
     "Megan Ong.jpeg",
     "Mona Abusharkh.png",
     "Nima.png",
     "Parth Sanan.png",
-    "Patrick Ly.png",
+    "Patrick Ly.jpeg",
     "Peter Lu.png",
     "Peter Na.jpg",
     "Rachel Chiu.png",
@@ -32,14 +32,18 @@ const memberHeadshots = {
     "Jun He Cui.png",
     "Ore Adeniyi.jpg",
     "Sanidhya Singh.png",
+    "Arul Howard.png",
+    "Manan Daga.png"
+
   ],
   neuroscience: [
     "Ashley Choo.png",
+    "Chloe (Tran Linh Dan) Nguyen.png",
     "Lavanya Shah.png",
     "Samantha Chee.png",
     "Tarini Rajasekar.png",
   ],
-  "signal-processing": ["Athina Law.png", "Owen Gill.png"],
+  "signal-processing": ["Athina Law.png", "Jayden Cheung.jpg", "Owen Gill.png"],
   electrical: [
     "Abdel-Rahman AL Faouri.jpg",
     "Cameron Fletcher.jpg",
@@ -69,7 +73,7 @@ const memberHeadshots = {
     "Ella Lowe-Ng.png",
     "Jessie Megan.png",
     "Mariane Olivan.png",
-    "Sonja Deng.png",
+    "Sonja Deng.jpg",
   ],
 };
 
